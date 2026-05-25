@@ -104,14 +104,14 @@ body {
 .dragon {
   width: 155px;
   left: 18px;
-  bottom: 158px;
+  bottom: 168px;
 }
 
 /* 오른쪽 새 캐릭터 */
 .bird {
   width: 155px;
   right: 20px;
-  bottom: 162px;
+  bottom: 172px;
   animation-delay: 0.5s;
 }
 
@@ -119,7 +119,7 @@ body {
 .machine-wrap {
   position: absolute;
   left: 50%;
-  top: 86px;
+  top: 66px;
   width: 450px;
   height: 450px;
   transform: translateX(-50%);
