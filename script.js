@@ -82,15 +82,15 @@ function setupFakeBalls() {
     ball.style.top = `${top}%`;
 
     /* 550x550용 이동 거리 */
-   ball.style.setProperty("--x1", `${randomBetween(-75, 75)}px`);
-   ball.style.setProperty("--y1", `${randomBetween(-48, 48)}px`);
-   ball.style.setProperty("--x2", `${randomBetween(-90, 90)}px`);
+   ball.style.setProperty("--x1", `${randomBetween(-72, 72)}px`);
+   ball.style.setProperty("--y1", `${randomBetween(-46, 46)}px`);
+   ball.style.setProperty("--x2", `${randomBetween(-86, 86)}px`);
    ball.style.setProperty("--y2", `${randomBetween(-58, 58)}px`);
-   ball.style.setProperty("--x3", `${randomBetween(-82, 82)}px`);
-   ball.style.setProperty("--y3", `${randomBetween(-54, 54)}px`);
-   ball.style.setProperty("--x4", `${randomBetween(-75, 75)}px`);
-   ball.style.setProperty("--y4", `${randomBetween(-50, 50)}px`);
-   ball.style.setProperty("--x5", `${randomBetween(-94, 94)}px`);
+   ball.style.setProperty("--x3", `${randomBetween(-78, 78)}px`);
+   ball.style.setProperty("--y3", `${randomBetween(-52, 52)}px`);
+   ball.style.setProperty("--x4", `${randomBetween(-72, 72)}px`);
+   ball.style.setProperty("--y4", `${randomBetween(-48, 48)}px`);
+   ball.style.setProperty("--x5", `${randomBetween(-92, 92)}px`);
    ball.style.setProperty("--y5", `${randomBetween(-60, 60)}px`);
 
     ball.style.setProperty("--duration", `${(randomBetween(55, 90) / 100).toFixed(2)}s`);
