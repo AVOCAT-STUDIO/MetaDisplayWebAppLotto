@@ -120,8 +120,8 @@ body {
   position: absolute;
   left: 50%;
   top: 86px;
-  width: 380px;
-  height: 380px;
+  width: 450px;
+  height: 450px;
   transform: translateX(-50%);
   z-index: 10;
 }
@@ -142,10 +142,10 @@ body {
 /* 추첨기 안 공 영역 */
 .machine-balls {
   position: absolute;
-  left: 65px;
-  top: 79px;
-  width: 119px;
-  height: 81px;
+  left: 119px;
+  top: 144px;
+  width: 216px;
+  height: 149px;
   z-index: 12;
   overflow: hidden;
   border-radius: 50%;
