@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>복복이 로또 번호 생성기</title>
+  <link rel="stylesheet" href="./style.css?v=10000" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <section class="brand">
+        <h1>복복이 <span>로또</span></h1>
+        <p>행운 가득! 오늘의 번호를 뽑아보세요!</p>
+      </section>
+    </header>
+
+    <section class="stage">
+      <img class="character dragon" src="./assets/dragon-character.png" alt="용 캐릭터" />
+
+      <section class="machine-wrap">
+        <img id="machine" class="machine" src="./assets/lotto-machine-empty.png" alt="빈 로또 추첨기" />
+        <div id="machineBalls" class="machine-balls" aria-hidden="true"></div>
+      </section>
+
+      <img class="character bird" src="./assets/bird-character.png" alt="새 캐릭터" />
+    </section>
+
+    <section class="result-panel">
+      <div class="result-left">
+        <h2>🍀 오늘의 당첨 번호</h2>
+        <div id="numberList" class="number-list">
+          <p class="empty-message">공들이 멈춰 있어요. 추첨하기 버튼을 눌러줘!</p>
+        </div>
+        <p id="dateText" class="date-text">추첨 전에는 공이 고정되어 있어요</p>
+      </div>
+
+      <button id="drawBtn" class="draw-btn" type="button">
+        <strong>추첨하기</strong>
+        <span>행운의 번호를 뽑아보세요!</span>
+      </button>
+    </section>
+  </main>
+
+  <script src="./script.js?v=10000"></script>
+</body>
+</html>
