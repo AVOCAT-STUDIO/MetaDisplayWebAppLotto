@@ -109,7 +109,7 @@ body {
 
 /* 오른쪽 새 캐릭터 */
 .bird {
-  width: 122px;
+  width: 155px;
   right: 20px;
   bottom: 162px;
   animation-delay: 0.5s;
@@ -120,8 +120,8 @@ body {
   position: absolute;
   left: 50%;
   top: 86px;
-  width: 500px;
-  height: 500px;
+  width: 380px;
+  height: 380px;
   transform: translateX(-50%);
   z-index: 10;
 }
