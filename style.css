@@ -119,9 +119,9 @@ body {
 .machine-wrap {
   position: absolute;
   left: 50%;
-  top: 86px;
-  width: 450px;
-  height: 450px;
+  top: 60px;
+  width: 550px;
+  height: 550px;
   transform: translateX(-50%);
   z-index: 10;
 }
@@ -142,10 +142,10 @@ body {
 /* 추첨기 안 공 영역 */
 .machine-balls {
   position: absolute;
-  left: 119px;
-  top: 144px;
-  width: 216px;
-  height: 149px;
+  left: 145px;
+  top: 176px;
+  width: 262px;
+  height: 182px;
   z-index: 12;
   overflow: hidden;
   border-radius: 50%;
@@ -153,18 +153,21 @@ body {
 }
 
 .mini-ball {
+.mini-ball {
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   display: grid;
   place-items: center;
   color: #38251c;
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 1000;
   background: linear-gradient(135deg, #ffe16a, #f09c21);
-  box-shadow: inset 0 2px 3px rgba(255,255,255,0.55), 0 2px 3px rgba(105, 57, 24, 0.18);
-  border: 1.5px solid rgba(255,255,255,0.78);
+  box-shadow:
+    inset 0 3px 4px rgba(255,255,255,0.55),
+    0 3px 5px rgba(105, 57, 24, 0.18);
+  border: 2px solid rgba(255,255,255,0.78);
 }
 
 .mini-ball.idle {
