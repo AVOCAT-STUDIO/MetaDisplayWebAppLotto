@@ -119,7 +119,7 @@ body {
 .machine-wrap {
   position: absolute;
   left: 50%;
-  top: 60px;
+  top: -20px;
   width: 550px;
   height: 550px;
   transform: translateX(-50%);
